@@ -1,13 +1,5 @@
-plugins {
-    id("com.android.application")
-    id("org.jetbrains.kotlin.android")
-}
+plugins { id("com.android.application") }
 android {
-    compileOptions {
-        sourceCompatibility = JavaVersion.VERSION_17
-        targetCompatibility = JavaVersion.VERSION_17
-    }
-
     namespace = "ru.tvoyhod.app"
     compileSdk = 35
     defaultConfig {
